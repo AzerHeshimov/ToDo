@@ -8,7 +8,7 @@ body {
 }
 #example .textbox {
   width: 270px;
-  height: 220px;
+  height: 270px;
   border-radius: 20px;
 }
 #example .textbox h1 {
@@ -31,7 +31,7 @@ body {
 h2 {
   text-align: center;
   border: 1px solid #000;
-  border-radius: 30px;
+  border-radius: 20px;
   padding: 12px 40px;
   margin: 10px 45px;
   max-width: 180px;

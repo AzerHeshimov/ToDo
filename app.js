@@ -7,8 +7,7 @@ $(document).ready(function () {
 
         let a =$('input').val();
         $('#myInput').val('');
-        let b = a/2;
-        if ( typeof b == 'number' && typeof b !== 'string'  ) {
+        if ( (a/2)> 0 ) {
             for (let i = 0; i < a; i++) {
                 
                 $(".box").append(`<h2>${a}</h2>`);
@@ -17,13 +16,19 @@ $(document).ready(function () {
         } else {
             $(".box").append(`<h2>${a}</h2>`);
         }
-       
-        
-        
-        
-        
-        
         
     });
 });
+
+
+
+
+
+
+
+
+
+
+
+
 
