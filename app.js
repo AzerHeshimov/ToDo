@@ -5,20 +5,23 @@ $(document).ready(function () {
     $('.btn').click(function (e) {
         e.preventDefault();
 
-        let inputValue =$('input').val();
+        let a =$('input').val();
         $('#myInput').val('');
-        if (!isNaN(inputValue)) {
-           
-            
-            for (let i = 0; i < parseInt(inputValue); i++) {
+        let b = a/2;
+        if ( typeof b == 'number' && typeof b !== 'string'  ) {
+            for (let i = 0; i < a; i++) {
                 
-                $(".col-md-3").append(`<h2>${inputValue}</h2>`);
+                $(".box").append(`<h2>${a}</h2>`);
             }
-            $(".col-md-3").append(repeatedValue);
+           
         } else {
-            
-            $(".col-md-3").append(`<h2>${inputValue}</h2>`);
+            $(".box").append(`<h2>${a}</h2>`);
         }
+       
+        
+        
+        
+        
         
         
     });
