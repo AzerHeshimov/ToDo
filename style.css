@@ -6,10 +6,13 @@ body {
 #example {
   padding: 80px 0;
 }
+#example .minibox {
+  padding: 10px 0;
+}
 #example .textbox {
-  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
-  width: 250px;
-  height: 250px;
+  background: #8f6048;
+  width: 270px;
+  height: 230px;
   border-radius: 20px;
 }
 #example .textbox h1 {
@@ -19,13 +22,14 @@ body {
   color: white;
 }
 #example .textbox input {
-  height: 60px;
+  height: 50px;
+  width: 200px;
   border-radius: 20px;
 }
 #example .textbox .btn {
-  margin: 18px 0;
+  margin: 20px 0 5px;
   background-color: white;
-  padding: 10px 20px;
+  padding: 7px 22px;
   border-radius: 20px;
 }
 
